@@ -129,7 +129,7 @@ export default function MarginCalculator() {
       {showMarginLimitModal && (
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-40">
           <div className="bg-white rounded-xl shadow-lg p-6 max-w-md w-full text-center">
-            <h2 className="text-lg font-bold mb-3">😅 희망 마진\uc율 제한 안내</h2>
+            <h2 className="text-lg font-bold mb-3">😅 희망 마진율 제한 안내</h2>
             <p className="text-sm text-gray-700 whitespace-pre-wrap leading-relaxed">
               희망 마진율은 <strong className="text-yellow-500">80% 이하</strong>까지만 설정할 수 있어요!{"\n\n"}
               마진과 마진율은 다른 개념이에요!{"\n"}
