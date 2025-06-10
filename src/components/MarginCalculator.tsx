@@ -55,7 +55,7 @@ export default function MarginCalculator() {
         <div className="text-center mb-6">
           <div className="bg-[#FFD31A] rounded px-4 py-3 w-full">
             <h1 className="text-xl font-bold text-black">
-              📈 위탁플러스 마진율 계산기
+              📈위탁플러스 마진율계산기
             </h1>
           </div>
           <p className="text-sm text-gray-500 mt-1">실제 정산 기준으로 수익을 계산하세요.</p>
