@@ -66,7 +66,10 @@ export default function MarginCalculator() {
           <input
             type="text"
             value={desiredMarginRateInput}
-            onChange={e => setDesiredMarginRateInput(e.target.value)}
+            onChange={e => {
+              setIsManualSalePrice(false);  // 자동계산 모드로 복귀
+              setDesiredMarginRateInput(e.target.value)};
+            }}
             className="w-24 border px-2 py-1 rounded-md shadow-sm text-right"
           />
         </div>
